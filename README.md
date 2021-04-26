@@ -9,13 +9,16 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 Deliverable 1: Use Resampling Models to Predict Credit Risk
+
 Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
+
 Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 
 ## Results:
 
-Deliverable 1: Use Resampling Models to Predict Credit Risk
+### Deliverable 1: Use Resampling Models to Predict Credit Risk
+
 I compare two oversampling algorithms to determine which algorithm results in the best performance. I oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm. 
 
 - Naive Random Oversampling
@@ -38,7 +41,7 @@ I tested an undersampling algorithms to determine which algorithm results in the
 
 Accuracy score is 54%
 
-Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
+### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
 
 - Combination (Over and Under) Sampling
 
@@ -48,7 +51,7 @@ I tested a combination over- and under-sampling algorithm to determine if the al
 
 Accuracy score is 66%
 
-Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 I compared two ensemble algorithms to determine which algorithm results in the best performance. I trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier .
 
