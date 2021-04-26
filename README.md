@@ -26,8 +26,11 @@ I compare two oversampling algorithms to determine which algorithm results in th
 ![naive_random_oversampling](naive_random_oversampling.png)
 
 Accuracy score is 67%
+
 Precision score is 0.01
+
 Recall score is 0.61
+
 F1 score is 0.02
 
 - SMOTE Oversampling
@@ -35,8 +38,11 @@ F1 score is 0.02
 ![SMOTE_Oversampling](SMOTE_Oversampling.png)
 
 Accuracy score is 66%
+
 Precision score is 0.01
+
 Recall score is 0.63
+
 F1 score is 0.02
 
 Naive and SMOTE algorithms have similar results. Both methods did not provide useful model for the prediction of bad loans.
@@ -48,8 +54,11 @@ I tested an undersampling algorithms to determine which algorithm results in the
 ![Undersampling](Undersampling.png)
 
 Accuracy score is 54%
+
 Precision score is 0.01
+
 Recall score is 0.69
+
 F1 score is 0.01
 
 Undersampling has provided low indicators, simikar to Naive and SMOTE algorithms. 
