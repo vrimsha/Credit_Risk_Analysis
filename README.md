@@ -79,7 +79,7 @@ Recall score is 0.63
 
 F1 score is 0.02
 
-The perfomance of Combination (Over and Under) Sampling algorithm showed poor result as well.
+The perfomance of Combination (Over and Under) Sampling algorithm has showed poor result as well.
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
@@ -97,6 +97,8 @@ Recall score is 0.70
 
 F1 score is 0.06
 
+Precision and recall numbers are higher than the previous algorithms.
+
 ### Easy Ensemble AdaBoost Classifier
 
 ![Easy_Ensemble_AdaBoost_Classifier](Easy_Ensemble_AdaBoost_Classifier.png)
@@ -109,7 +111,8 @@ Recall score is 0.92
 
 F1 score is 0.16
 
+Precision and recall numbers are higher than the previous algorithms. Also, accuracy score is the highest score.
+
 ## Summary:
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+When we compare 6 algorithms, we can see that the Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier algorithms have higher accuracy scores. I would suggest to use the Easy Ensemble AdaBoost Classifier algorithm which has teh highest score of accuracy 93%.
