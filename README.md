@@ -115,4 +115,4 @@ Precision and recall numbers are higher than the previous algorithms. Also, accu
 
 ## Summary:
 
-When we compare 6 algorithms, we can see that the Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier algorithms have higher accuracy scores. I would suggest to use the Easy Ensemble AdaBoost Classifier algorithm which has teh highest score of accuracy 93%.
+When we compare 6 algorithms, we can see that the Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier algorithms have high accuracy scores 73% and 93%. I would suggest to use the Easy Ensemble AdaBoost Classifier algorithm with the highest score of accuracy 93%.
