@@ -21,7 +21,7 @@ Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 I compared two oversampling algorithms to determine which algorithm results in the best performance. I oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm. 
 
-- Naive Random Oversampling
+### Naive Random Oversampling
 
 ![naive_random_oversampling](naive_random_oversampling.png)
 
@@ -33,7 +33,7 @@ Recall score is 0.61
 
 F1 score is 0.02
 
-- SMOTE Oversampling
+### SMOTE Oversampling
 
 ![SMOTE_Oversampling](SMOTE_Oversampling.png)
 
@@ -47,7 +47,7 @@ F1 score is 0.02
 
 Naive and SMOTE algorithms have similar results. Both methods did not provide useful model for the prediction of bad loans.
 
-- Undersampling using ClusterCentroids resampler
+### Undersampling using ClusterCentroids resampler
 
 I tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. You will undersample the data using the Cluster Centroids algorithm.
 
@@ -65,7 +65,7 @@ Undersampling has provided low indicators, simikar to Naive and SMOTE algorithms
 
 ### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
 
-- Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 
 I tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. You will resample the data using the SMOTEENN algorithm.
 
@@ -85,7 +85,7 @@ The perfomance of Combination (Over and Under) Sampling algorithm showed poor re
 
 I compared two ensemble algorithms to determine which algorithm results in the best performance. I trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier .
 
-- Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
 
 ![Balanced_Random_Forest_Classifier](Balanced_Random_Forest_Classifier.png)
 
@@ -97,8 +97,7 @@ Recall score is 0.70
 
 F1 score is 0.06
 
-- Easy Ensemble AdaBoost Classifier
-
+### Easy Ensemble AdaBoost Classifier
 
 ![Easy_Ensemble_AdaBoost_Classifier](Easy_Ensemble_AdaBoost_Classifier.png)
 
