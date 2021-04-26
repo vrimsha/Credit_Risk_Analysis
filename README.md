@@ -19,7 +19,7 @@ Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 ### Deliverable 1: Use Resampling Models to Predict Credit Risk
 
-I compare two oversampling algorithms to determine which algorithm results in the best performance. I oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm. 
+I compared two oversampling algorithms to determine which algorithm results in the best performance. I oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm. 
 
 - Naive Random Oversampling
 
@@ -73,6 +73,14 @@ I tested a combination over- and under-sampling algorithm to determine if the al
 
 Accuracy score is 66%
 
+Precision score is 0.01
+
+Recall score is 0.63
+
+F1 score is 0.02
+
+The perfomance of Combination (Over and Under) Sampling algorithm showed poor result as well.
+
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 I compared two ensemble algorithms to determine which algorithm results in the best performance. I trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier .
@@ -83,12 +91,24 @@ I compared two ensemble algorithms to determine which algorithm results in the b
 
 Accuracy score is 79%
 
+Precision score is 0.03
+
+Recall score is 0.70
+
+F1 score is 0.06
+
 - Easy Ensemble AdaBoost Classifier
 
 
 ![Easy_Ensemble_AdaBoost_Classifier](Easy_Ensemble_AdaBoost_Classifier.png)
 
 Accuracy score is 93%
+
+Precision score is 0.09
+
+Recall score is 0.92
+
+F1 score is 0.16
 
 ## Summary:
 
